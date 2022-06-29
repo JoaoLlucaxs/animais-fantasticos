@@ -1,13 +1,11 @@
 {
-  "name": "frontend",
+  "name": "animais-fantasticos",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
     "build": "webpack --mode production ./frontend/script.js -o ./main.js",
     "dev":"webpack --mode development --watch ./frontend/script.js -o ./main.js"
   },
-  "author": "",
+
   "license": "ISC",
   "devDependencies": {
     "eslint": "^8.18.0",
